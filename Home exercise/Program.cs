@@ -19,6 +19,7 @@
 //Console.WriteLine(myDouble);
 
 
+
 //дз 7.1.2
 
 //double PI = 3.14;
@@ -49,32 +50,64 @@
 //Console.WriteLine($"{name}\n{surname}\n{familyName}\n{job}\n{familyStatus}\n{children}");
 
 
+
 //дз 5.1
 
-const double MM_TO_CM = 0.1;
-const double MM_TO_M = 0.0001;
-const double MM_TO_KM = 0.000001;
-const double MM_TO_MILI = 6.213711922373341e-7;
-const double MM_TO_YD = 0.0010936132983;
+//const double MM_TO_CM = 0.1;
+//const double MM_TO_M = 0.0001;
+//const double MM_TO_KM = 0.000001;
+//const double MM_TO_MILI = 6.213711922373341e-7;
+//const double MM_TO_YD = 0.0010936132983;
 
 
-Console.WriteLine("Введите колличество мм: ");
-double mm = double.Parse(Console.ReadLine());
-double cm = mm*MM_TO_CM;
-Console.WriteLine($"{cm}см");
+//Console.WriteLine("Введите колличество мм: ");
+//double mm = double.Parse(Console.ReadLine());
+//double cm = mm * MM_TO_CM;
+//Console.WriteLine($"{cm}см");
 
 
-double m = mm * MM_TO_M;
-Console.WriteLine($"{m}м");
+//double m = mm * MM_TO_M;
+//Console.WriteLine($"{m}м");
 
 
-double km = mm * MM_TO_KM;
-Console.WriteLine($"{km}км");
+//double km = mm * MM_TO_KM;
+//Console.WriteLine($"{km}км");
 
 
-double mili = mm * MM_TO_MILI;
-Console.WriteLine($"{mili}мили");
+//double mili = mm * MM_TO_MILI;
+//Console.WriteLine($"{mili}мили");
 
 
-double yd = mm * MM_TO_YD;
-Console.WriteLine($"{yd}ярд");
+//double yd = mm * MM_TO_YD;
+//Console.WriteLine($"{yd}ярд");
+
+
+
+// дз 5.2
+
+// Первый продукт
+
+//Console.WriteLine("Укажите продукт: ");
+//string firstProductName = Console.ReadLine();
+
+//Console.WriteLine($"Укажите цену {firstProductName}: ");
+//decimal firstProductPrice = decimal.Parse(Console.ReadLine());
+
+//Console.WriteLine($"Укажите колличество продукта {firstProductName} , по цене {firstProductPrice}: ");
+//int firstProductQuantity = int.Parse(Console.ReadLine());
+
+//decimal sum = firstProductPrice * firstProductQuantity;
+
+
+//// Второй продукт
+
+//Console.WriteLine("Укажите продукт: ");
+//string firstProductName = Console.ReadLine();
+
+//Console.WriteLine($"Укажите цену {firstProductName}: ");
+//decimal firstProductPrice = decimal.Parse(Console.ReadLine());
+
+//Console.WriteLine($"Укажите колличество продукта {firstProductName} , по цене {firstProductPrice}: ");
+//int firstProductQuantity = int.Parse(Console.ReadLine());
+
+//decimal sum = firstProductPrice * firstProductQuantity;
