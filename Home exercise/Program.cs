@@ -25,5 +25,24 @@ Console.WriteLine("Площадь круга равна: ");
 Console.WriteLine(PI *  radius  *  radius);
 
 
-Console.WriteLine()
+Console.WriteLine("Введите ваше имя: ");
+string name = Console.ReadLine();
+
+Console.WriteLine("Введите вашу фамилию: ");
+string surname = Console.ReadLine();
+
+Console.WriteLine("Введите ваше отчество: ");
+string familyName = Console.ReadLine();
+
+Console.WriteLine("Укажите место работы: ");
+string job = Console.ReadLine();
+
+Console.WriteLine("Семейное положение: ");
+string familyStatus = Console.ReadLine();
+
+Console.WriteLine("Есть ли у вас дети: ");
+string children = Console.ReadLine();
+
+Console.WriteLine($"{name}\n{surname}\n{familyName}\n{job}\n{familyStatus}\n{children}");
+
 
