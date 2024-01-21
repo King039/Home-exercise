@@ -1,4 +1,6 @@
-﻿//string myString = "28";
+﻿//дз 5.1
+
+//string myString = "28";
 //Console.WriteLine(myString);
 
 //byte myByte = byte.Parse(myString);
@@ -17,32 +19,62 @@
 //Console.WriteLine(myDouble);
 
 
+//дз 7.1.2
 
-double PI = 3.14;
-Console.WriteLine("Введите радиус окружности: ");
-double radius = double.Parse(Console.ReadLine());
-Console.WriteLine("Площадь круга равна: ");
-Console.WriteLine(PI *  radius  *  radius);
-
-
-Console.WriteLine("Введите ваше имя: ");
-string name = Console.ReadLine();
-
-Console.WriteLine("Введите вашу фамилию: ");
-string surname = Console.ReadLine();
-
-Console.WriteLine("Введите ваше отчество: ");
-string familyName = Console.ReadLine();
-
-Console.WriteLine("Укажите место работы: ");
-string job = Console.ReadLine();
-
-Console.WriteLine("Семейное положение: ");
-string familyStatus = Console.ReadLine();
-
-Console.WriteLine("Есть ли у вас дети: ");
-string children = Console.ReadLine();
-
-Console.WriteLine($"{name}\n{surname}\n{familyName}\n{job}\n{familyStatus}\n{children}");
+//double PI = 3.14;
+//Console.WriteLine("Введите радиус окружности: ");
+//double radius = double.Parse(Console.ReadLine());
+//Console.WriteLine("Площадь круга равна: ");
+//Console.WriteLine(PI *  radius  *  radius);
 
 
+//Console.WriteLine("Введите ваше имя: ");
+//string name = Console.ReadLine();
+
+//Console.WriteLine("Введите вашу фамилию: ");
+//string surname = Console.ReadLine();
+
+//Console.WriteLine("Введите ваше отчество: ");
+//string familyName = Console.ReadLine();
+
+//Console.WriteLine("Укажите место работы: ");
+//string job = Console.ReadLine();
+
+//Console.WriteLine("Семейное положение: ");
+//string familyStatus = Console.ReadLine();
+
+//Console.WriteLine("Есть ли у вас дети: ");
+//string children = Console.ReadLine();
+
+//Console.WriteLine($"{name}\n{surname}\n{familyName}\n{job}\n{familyStatus}\n{children}");
+
+
+//дз 5.1
+
+const double MM_TO_CM = 0.1;
+const double MM_TO_M = 0.0001;
+const double MM_TO_KM = 0.000001;
+const double MM_TO_MILI = 6.213711922373341e-7;
+const double MM_TO_YD = 0.0010936132983;
+
+
+Console.WriteLine("Введите колличество мм: ");
+double mm = double.Parse(Console.ReadLine());
+double cm = mm*MM_TO_CM;
+Console.WriteLine($"{cm}см");
+
+
+double m = mm * MM_TO_M;
+Console.WriteLine($"{m}м");
+
+
+double km = mm * MM_TO_KM;
+Console.WriteLine($"{km}км");
+
+
+double mili = mm * MM_TO_MILI;
+Console.WriteLine($"{mili}мили");
+
+
+double yd = mm * MM_TO_YD;
+Console.WriteLine($"{yd}ярд");
