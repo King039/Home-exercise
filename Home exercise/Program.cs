@@ -87,27 +87,40 @@
 
 // Первый продукт
 
-//Console.WriteLine("Укажите продукт: ");
-//string firstProductName = Console.ReadLine();
+Console.WriteLine("Укажите продукт: ");
+string firstProductName = Console.ReadLine();
 
-//Console.WriteLine($"Укажите цену {firstProductName}: ");
-//decimal firstProductPrice = decimal.Parse(Console.ReadLine());
+Console.WriteLine($"Укажите цену {firstProductName}: ");
+decimal firstProductPrice = decimal.Parse(Console.ReadLine());
 
-//Console.WriteLine($"Укажите колличество продукта {firstProductName} , по цене {firstProductPrice}: ");
-//int firstProductQuantity = int.Parse(Console.ReadLine());
+Console.WriteLine($"Укажите колличество продукта {firstProductName} , по цене {firstProductPrice}: ");
+int firstProductQuantity = int.Parse(Console.ReadLine());
 
-//decimal sum = firstProductPrice * firstProductQuantity;
+decimal sum = firstProductPrice * firstProductQuantity;
 
 
 //// Второй продукт
 
-//Console.WriteLine("Укажите продукт: ");
-//string firstProductName = Console.ReadLine();
+Console.WriteLine("Укажите продукт: ");
+string secondProductName = Console.ReadLine();
 
-//Console.WriteLine($"Укажите цену {firstProductName}: ");
-//decimal firstProductPrice = decimal.Parse(Console.ReadLine());
+Console.WriteLine($"Укажите цену {secondProductName}: ");
+decimal secondProductPrice = decimal.Parse(Console.ReadLine());
 
-//Console.WriteLine($"Укажите колличество продукта {firstProductName} , по цене {firstProductPrice}: ");
-//int firstProductQuantity = int.Parse(Console.ReadLine());
+Console.WriteLine($"Укажите колличество продукта {secondProductName} , по цене {secondProductPrice}: ");
+int secondProductQuantity = int.Parse(Console.ReadLine());
 
-//decimal sum = firstProductPrice * firstProductQuantity;
+decimal sum2 = secondProductPrice * secondProductQuantity;
+
+
+Console.WriteLine("№\tНазвание\tЦена\tКолличество\tСумма");
+
+Console.WriteLine($"1\t{firstProductName}\t{firstProductPrice}\t{firstProductQuantity}\t{sum}");
+
+Console.WriteLine("НДС с расчитаной ставкой 18%\t\t\t10.53");
+
+Console.WriteLine($"2\t{secondProductName}\t{secondProductPrice}\t{secondProductQuantity}\t{sum2}");
+
+Console.WriteLine("НДС с расчитаной ставкой 10%\t\t\t6.36");
+
+Console.WriteLine($"Итого: {sum + sum2}");
