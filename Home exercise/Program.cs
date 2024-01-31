@@ -88,73 +88,104 @@
 // Первый продукт "кофе стандарт" цена 69,0 ; колличество 1
 
 
-Console.WriteLine("Укажите продукт: ");
-string firstProductName = Console.ReadLine();
+//Console.WriteLine("Укажите продукт: ");
+//string firstProductName = Console.ReadLine();
 
-Console.WriteLine($"Укажите цену {firstProductName}: ");
-decimal firstProductPrice = decimal.Parse(Console.ReadLine());
+//Console.WriteLine($"Укажите цену {firstProductName}: ");
+//decimal firstProductPrice = decimal.Parse(Console.ReadLine());
 
-Console.WriteLine($"Укажите колличество продукта {firstProductName} , по цене {firstProductPrice}: ");
-int firstProductQuantity = int.Parse(Console.ReadLine());
+//Console.WriteLine($"Укажите колличество продукта {firstProductName} , по цене {firstProductPrice}: ");
+//int firstProductQuantity = int.Parse(Console.ReadLine());
 
-decimal sum = firstProductPrice * firstProductQuantity;
-
-
-//// Второй продукт "рулет-спринг тв из ку" цена 70,0 ; колличество 1
-
-Console.WriteLine("Укажите продукт: ");
-string secondProductName = Console.ReadLine();
-
-Console.WriteLine($"Укажите цену {secondProductName}: ");
-decimal secondProductPrice = decimal.Parse(Console.ReadLine());
-
-Console.WriteLine($"Укажите колличество продукта {secondProductName} , по цене {secondProductPrice}: ");
-int secondProductQuantity = int.Parse(Console.ReadLine());
-
-decimal sum2 = secondProductPrice * secondProductQuantity;
+//decimal sum = firstProductPrice * firstProductQuantity;
 
 
+////// Второй продукт "рулет-спринг тв из ку" цена 70,0 ; колличество 1
 
-Console.WriteLine("*********************************************************");
+//Console.WriteLine("Укажите продукт: ");
+//string secondProductName = Console.ReadLine();
 
-Console.WriteLine("№ Название\t\t\tЦена\tКолличество\tСумма");
+//Console.WriteLine($"Укажите цену {secondProductName}: ");
+//decimal secondProductPrice = decimal.Parse(Console.ReadLine());
 
-Console.WriteLine($"№1 {firstProductName}\t\t{firstProductPrice}\t{firstProductQuantity}\t\t{sum}");
+//Console.WriteLine($"Укажите колличество продукта {secondProductName} , по цене {secondProductPrice}: ");
+//int secondProductQuantity = int.Parse(Console.ReadLine());
 
-Console.WriteLine("НДС с расчитаной ставкой 18%\t\t\t\t10.53");
+//decimal sum2 = secondProductPrice * secondProductQuantity;
 
-Console.WriteLine($"№2 {secondProductName}\t{secondProductPrice}\t{secondProductQuantity}\t\t{sum2}");
 
-Console.WriteLine("НДС с расчитаной ставкой 10%\t\t\t\t6.36");
 
-Console.WriteLine("*********************************************************");
+//Console.WriteLine("*********************************************************");
 
-Console.WriteLine($"Итого: {sum + sum2}");
+//Console.WriteLine("№ Название\t\t\tЦена\tКолличество\tСумма");
 
-Console.WriteLine(" ");
+//Console.WriteLine($"№1 {firstProductName}\t\t{firstProductPrice}\t{firstProductQuantity}\t\t{sum}");
 
-Console.WriteLine(" ");
+//Console.WriteLine("НДС с расчитаной ставкой 18%\t\t\t\t10.53");
 
-Console.WriteLine($"Электронные средства:\t\t\t\t{sum + sum2}");
+//Console.WriteLine($"№2 {secondProductName}\t{secondProductPrice}\t{secondProductQuantity}\t\t{sum2}");
 
-Console.WriteLine("НДС итога чека с расчитаной ставкой\n18%\t10.53");
+//Console.WriteLine("НДС с расчитаной ставкой 10%\t\t\t\t6.36");
 
-Console.WriteLine("НДС итога чека с расчитаной ставкой\n10%\t6.36");
+//Console.WriteLine("*********************************************************");
 
-Console.WriteLine(" ");
+//Console.WriteLine($"Итого: {sum + sum2}");
 
-Console.WriteLine(" ");
+//Console.WriteLine(" ");
 
-Console.WriteLine("*********************************************************");
+//Console.WriteLine(" ");
 
-Console.WriteLine("ВИД НАЛОГООБЛАЖЕНИЯ: ОСН");
+//Console.WriteLine($"Электронные средства:\t\t\t\t{sum + sum2}");
 
-Console.WriteLine("РЕГ. НОМЕР ККТ: 0000143873023483");
+//Console.WriteLine("НДС итога чека с расчитаной ставкой\n18%\t10.53");
 
-Console.WriteLine("ЗАВОД. №:");
+//Console.WriteLine("НДС итога чека с расчитаной ставкой\n10%\t6.36");
 
-Console.WriteLine("ФН. №: 8710000100265168");
+//Console.WriteLine(" ");
 
-Console.WriteLine("ФД. №: 6026");
+//Console.WriteLine(" ");
 
-Console.WriteLine("ФПД: 3322278314");
+//Console.WriteLine("*********************************************************");
+
+//Console.WriteLine("ВИД НАЛОГООБЛАЖЕНИЯ: ОСН");
+
+//Console.WriteLine("РЕГ. НОМЕР ККТ: 0000143873023483");
+
+//Console.WriteLine("ЗАВОД. №:");
+
+//Console.WriteLine("ФН. №: 8710000100265168");
+
+//Console.WriteLine("ФД. №: 6026");
+
+//Console.WriteLine("ФПД: 3322278314");
+
+
+// дз 6.2
+
+string firstString = "512";
+
+int number = int.Parse(firstString);
+
+Console.WriteLine(number.GetType());
+
+string secondString = number.ToString();
+
+Console.WriteLine(secondString.GetType());
+
+Console.WriteLine(secondString);
+Console.ReadLine();
+
+
+
+string a = "100";
+
+int b = int.Parse(a);
+
+Console.WriteLine(b.GetType());
+
+string c = b.ToString();
+
+Console.WriteLine(c.GetType());
+
+Console.WriteLine(c);
+Console.ReadLine();
