@@ -162,30 +162,100 @@
 
 // дз 6.2
 
-string firstString = "512";
+//string firstString = "512";
 
-int number = int.Parse(firstString);
+//int number = int.Parse(firstString);
 
-Console.WriteLine(number.GetType());
+//Console.WriteLine(number.GetType());
 
-string secondString = number.ToString();
+//string secondString = number.ToString();
 
-Console.WriteLine(secondString.GetType());
+//Console.WriteLine(secondString.GetType());
 
-Console.WriteLine(secondString);
-Console.ReadLine();
+//Console.WriteLine(secondString);
+//Console.ReadLine();
 
 
 
-string a = "100";
+//string a = "100";
 
-int b = int.Parse(a);
+//int b = int.Parse(a);
 
-Console.WriteLine(b.GetType());
+//Console.WriteLine(b.GetType());
 
-string c = b.ToString();
+//string c = b.ToString();
 
-Console.WriteLine(c.GetType());
+//Console.WriteLine(c.GetType());
 
-Console.WriteLine(c);
-Console.ReadLine();
+//Console.WriteLine(c);
+//Console.ReadLine();
+
+
+// 8.1
+//1
+
+//int book = 10;
+//int petja = book;
+//int alex = book - 4;
+//int result = alex;
+//int vanja = result - 2;
+//int summa1 = petja + alex + vanja;
+//Console.WriteLine($"Петя {petja} , Алёша {alex} , Ваня {vanja}.");
+//Console.WriteLine($"Вместе {summa1}");
+//Console.ReadLine();
+
+////2
+
+//int basket1 = 23;
+//int basket2 = basket1 - 11;
+//int summa = basket1 + basket2;
+//Console.WriteLine($"В обоих корзинах {summa} яблока.");
+//Console.ReadLine();
+
+//8.2
+//1
+
+//int eggs = 10 + 3;
+//int eat = 9;
+//int resalt = eggs % eat;
+//Console.WriteLine($"Осталось яиц: {resalt}.");
+//Console.ReadLine();
+
+////2
+
+//int magazine = 25;
+//int newspaper = magazine + 16;
+//Console.WriteLine($"Ширина газеты {newspaper} см.");
+//Console.ReadLine();
+
+////3
+
+//double potato = 44;
+//double beet = potato / 4;
+//double onion = beet / 2;
+//Console.WriteLine($"Повар потратил {onion} кг. лука.");
+//Console.ReadLine();
+
+//8.3
+//1
+
+//Console.Write("Введите целое число: ");
+//int number = int.Parse(Console.ReadLine());
+//int division = number % 8;
+//Console.WriteLine($"Остаток от деления на 8 равен: {division}");
+//Console.ReadLine();
+
+////2
+
+//Console.Write("Введите число 1: ");
+//int number1 = int.Parse(Console.ReadLine());
+//Console.Write("Введите число 2: ");
+//int number2 = int.Parse(Console.ReadLine());
+//Console.Write("Введите число 3: ");
+//int number3 = int.Parse(Console.ReadLine());
+//int addition = number1+number2+number3;
+//int multipliсation = number1*number2*number3;
+//Console.WriteLine($"Сумма введенных чисел: {addition}");
+//Console.WriteLine($"Произведение введенных чисел: {multipliсation}");
+//Console.ReadLine();
+//
